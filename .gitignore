@@ -1,0 +1,16 @@
+# ignore all model files, job files and test files
+.vscode/*
+videocap/*
+result/*
+test/*
+# ignore all pyc
+*.pyc
+
+# ignore all lib files which can be built by makefile
+*.so
+*.avi
+# nohub file
+*.out
+*.log
+*.txt
+.config_luckynode
